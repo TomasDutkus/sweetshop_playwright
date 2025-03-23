@@ -29,51 +29,62 @@ This project is designed to automate various testing scenarios using **Playwrigh
 ### 🔹 Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/TomasDutkus/sweetshop_playwright
-   Navigate to the project directory:
-   bash
-   Copy
-   Edit
+   ```
+2. Navigate to the project directory:
+   ```
    cd sweetshop_playwright
-   Install dependencies:
-   bash
-   Copy
-   Edit
+   ```
+3. Install dependencies:
+   ```
    npm install
+   ```
+   ```
    npm install playwright --save-dev
-   🏃 Running Playwright Tests
-   ▶️ Manually (Local Execution)
-   Run Playwright tests locally using:
    ```
 
-bash
-Copy
-Edit
+## 🏃 Running Playwright Tests
+
+### ▶️ Manually (Local Execution)
+
+Run Playwright tests locally using:
+
+```
 npx playwright test # Runs tests in headless mode
+```
+
 Or, to open Playwright UI for debugging:
 
-bash
-Copy
-Edit
+```
 npx playwright test --ui
-▶️ Using GitHub Actions
-Push changes to the repository, and the CI pipeline will automatically execute Playwright tests.
+```
 
-🔄 GitHub Actions Workflow
+### ▶️ Using GitHub Actions
+
+Push changes to the repository, and the CI pipeline will automatically execute Cypress tests.
+
+## 🔄 GitHub Actions Workflow
+
 This project includes a workflow for:
 
-🚦 CI Testing: Runs Playwright tests on every push and pull request.
-✅ Build Validation: Ensures all UI functionalities work before deployment.
-🤝 Contribution Guidelines
-🔀 Fork the repository.
-🌿 Create a new branch: git checkout -b feature-branch.
-✍️ Commit changes: git commit -m "Add new Playwright test".
-📤 Push to the branch: git push origin feature-branch.
-🔎 Open a Pull Request for review.
-📜 License
-This project is licensed under the MIT License.
+- 🚦 **CI Testing**: Runs Cypress tests on every push and pull request.
+- ✅ **Build Validation**: Ensures all UI functionalities work before deployment.
 
-👤 Author: Tomas Dutkus
-📧 Contact: tomasdutkus@gmail.com
-🔗 GitHub: TomasDutkus
+## 🤝 Contribution Guidelines
+
+1. 🔀 Fork the repository.
+2. 🌿 Create a new branch: `git checkout -b feature-branch`.
+3. ✍️ Commit changes: `git commit -m "Add new Cypress test"`.
+4. 📤 Push to the branch: `git push origin feature-branch`.
+5. 🔎 Open a **Pull Request** for review.
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+**👤 Author:** Tomas Dutkus  
+📧 **Contact:** tomasdutkus@gmail.com  
+🔗 **GitHub:** [TomasDutkus](https://github.com/TomasDutkus)
